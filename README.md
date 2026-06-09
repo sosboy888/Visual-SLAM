@@ -1,9 +1,5 @@
 # Visual and LiDAR SLAM
 
-**COMP0249 Coursework 2 — Group 15**  
-Department of Computer Science, University College London  
-March 2026
-
 ---
 
 ## Overview
