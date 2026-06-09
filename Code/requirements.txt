@@ -1,0 +1,27 @@
+# COMP0249 CW2 Python requirements
+# Install with: pip install -r requirements.txt
+
+# Core scientific stack
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+
+# Computer vision / SLAM
+opencv-python>=4.8
+
+# EVO trajectory evaluation (Q1, Q2)
+evo>=1.28
+
+# Pose graph optimisation (optional but preferred)
+# Install one of:
+#   pip install g2opy            (g2o Python bindings)
+#   pip install gtsam            (GTSAM Python bindings)
+# If neither is available, a built-in Gauss-Newton solver is used automatically.
+
+# ROS bag support (only needed on machine with ROS)
+# rosbag is part of ROS, not pip-installable separately.
+# Alternative: use rosbags (pure Python):
+rosbags>=0.9.14    # pip install rosbags — reads ROS1/ROS2 bags without ROS
+
+# Optional: faster nearest neighbour search
+# scikit-learn>=1.3
